@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class AStarMetrics{
+class AStarProject{
     public static void main(String[] args){
         int choice = 0;
         while(choice < 1 || choice > 3){

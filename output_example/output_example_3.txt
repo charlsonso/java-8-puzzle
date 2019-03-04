@@ -1,0 +1,168 @@
+A* search menu
+1. Enter 8-puzzle
+2. Solve Random 8-puzzle
+3. Generate Stats for 8-puzzle
+
+1
+Enter Board (Format: 0 1 2 3 4 5 6 7 8):2 5 4 1 0 6 7 3 8
+Solution using heuristic 1
+
+Step 1:
+
+2 5 4
+1 0 6
+7 3 8
+Step 2:
+
+2 5 4
+1 6 0
+7 3 8
+Step 3:
+
+2 5 0
+1 6 4
+7 3 8
+Step 4:
+
+2 0 5
+1 6 4
+7 3 8
+Step 5:
+
+0 2 5
+1 6 4
+7 3 8
+Step 6:
+
+1 2 5
+0 6 4
+7 3 8
+Step 7:
+
+1 2 5
+6 0 4
+7 3 8
+Step 8:
+
+1 2 5
+6 3 4
+7 0 8
+Step 9:
+
+1 2 5
+6 3 4
+0 7 8
+Step 10:
+
+1 2 5
+0 3 4
+6 7 8
+Step 11:
+
+1 2 5
+3 0 4
+6 7 8
+Step 12:
+
+1 2 5
+3 4 0
+6 7 8
+Step 13:
+
+1 2 0
+3 4 5
+6 7 8
+Step 14:
+
+1 0 2
+3 4 5
+6 7 8
+Step 15:
+
+0 1 2
+3 4 5
+6 7 8
+Solution Depth, Search Cost, Run Time (ms): 14, 687, 0.0
+Solution using heuristic 2
+
+Step 1:
+
+2 5 4
+1 6 0
+7 3 8
+Step 3:
+
+2 5 0
+1 6 4
+7 3 8
+Step 4:
+
+2 0 5
+1 6 4
+7 3 8
+Step 5:
+
+0 2 5
+1 6 4
+7 3 8
+Step 6:
+
+1 2 5
+0 6 4
+7 3 8
+Step 7:
+
+1 2 5
+6 0 4
+7 3 8
+Step 8:
+
+1 2 5
+6 3 4
+7 0 8
+Step 9:
+
+1 2 5
+6 3 4
+0 7 8
+Step 10:
+
+1 2 5
+6 3 4
+7 0 8
+Step 9:
+
+1 2 5
+6 3 4
+0 7 8
+Step 10:
+
+1 2 5
+0 3 4
+6 7 8
+Step 11:
+
+1 2 5
+3 0 4
+6 7 8
+Step 12:
+
+1 2 5
+3 4 0
+6 7 8
+Step 13:
+
+1 2 0
+3 4 5
+6 7 8
+Step 14:
+
+1 0 2
+3 4 5
+6 7 8
+Step 15:
+
+0 1 2
+3 4 5
+6 7 8
+Solution Depth, Search Cost, Run Time (ms): 14, 84, 0.0
